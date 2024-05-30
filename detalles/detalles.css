@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+
+#fechaEstreno {
+    color:black;
+    width: 230px;
+}
+
+.datosJuego{
+    font-size: 10px;
+}
+
+#albums img{
+    width: 300px;
+    margin: 10px;
+}
+
+.divGrande{
+    display: inline-block;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+}

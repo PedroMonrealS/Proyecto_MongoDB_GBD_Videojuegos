@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+
+.formInsert{
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    text-align: center;
+}
+
+form{
+    border-style: solid;
+    border-color: white;
+    padding: 30px;
+
+}
+.formInsert input{
+    color:black;
+    font-size: 20px;
+    transition: all 0.2s;
+    padding: 10px;
+    background-color: aliceblue;
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 10px;
+}
+
+#fechaEstreno {
+    color:black;
+    width: 230px;
+}
+
+#upload-button{
+    font-size: 13px;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    font-size: 13px;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+
+.submitZone{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+.datosJuego{
+    font-size: 10px;
+}
+
+#albums img{
+    width: 300px;
+    margin: 10px;
+}
+
+.divGrande{
+    display: inline-block;
+    border-style: solid;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.DIVOpciones{
+    font-size: 20px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.116);
+    display: inline-block;
+}
+
+.DIVOpciones a{
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
